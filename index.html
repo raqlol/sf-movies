@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <form name="search" onsubmit="return validateForm()">
+        <input type="text" name="input">
+        <button type="submit" value="Submit">SEARCH</button>
+    </form>
+    <div id="map"></div>
+    <script src="site.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiZueEo7eQOfGk9fIFDUKn8YETs1Di_KY&callback=initMap"
+    async defer></script>
+  </body>
+</html>

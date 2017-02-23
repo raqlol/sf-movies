@@ -1,0 +1,49 @@
+@charset "UTF-8";
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, p {
+	color:black;
+	font-family: sans-serif;
+	line-height:20px;
+}
+input {
+	position:absolute;
+	top: 80px;
+	left: 10px;
+	z-index: 10000;
+	height:20px;
+	width:300px;
+}
+button {
+	position:absolute;
+	top: 80px;
+	left: 320px;
+	z-index: 10000;
+	height:21px;
+	background-color: indianred;
+	font-weight: bold;
+	color: white;
+	border: none;
+	letter-spacing: 1px;
+}
+.content {
+	position: absolute;
+	top:25%;
+	width: 100%;
+}
+#map {
+	height: 100%;
+	width:100%;
+	padding: 0;
+}
+.gmnoprint {
+	width:100%;
+	padding: 0;
+}
+.gm-style-mtc {
+	float: none;
+	padding:0;
+}
