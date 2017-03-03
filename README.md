@@ -19,4 +19,3 @@ The final addition to the app was a traditional submit button.
 Future versions of the project will include Ubers final implementation recommendation for autocomplete of search terms.  
 
 All public work can be found at https://github.com/raqlol/
-The final release of San Francisco Movie Locations can be found at http://sfmovies.raqlol.com
